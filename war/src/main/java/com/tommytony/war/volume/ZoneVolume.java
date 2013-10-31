@@ -245,7 +245,7 @@ public class ZoneVolume extends Volume {
 	}
 
 	public boolean tooBig() {
-		if (this.hasTwoCorners() && ((this.getMaxX() - this.getMinX() > 750) || (this.getMaxY() - this.getMinY() > 750) || (this.getMaxZ() - this.getMinZ() > 750))) {
+		if (this.hasTwoCorners() && ((this.getMaxX() - this.getMinX() > 1250) || (this.getMaxY() - this.getMinY() > 1250) || (this.getMaxZ() - this.getMinZ() > 1250))) {
 			return true;
 		}
 		return false;
